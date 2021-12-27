@@ -1,0 +1,63 @@
+*{
+    padding:0 ; margin: 0; box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    background: black;
+}
+h1{
+    font-family: 'Corinthia', cursive;
+    
+}
+   
+.nav-item
+{
+ 
+  font-size: 25px;
+  margin: 6px;
+  padding: 2%;
+}
+.card-group{
+  
+  margin:10px;
+}
+
+.card-text{
+  color: black;
+  font-family: 'Corinthia', cursive;
+  font-size: 30px;
+}
+.card-title{
+  font-size: 25px;
+  color:teal;
+}
+.container .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+ 
+}
+.container .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  color: blue;
+}
+.container .contactInfo .box .text{
+  display: flex;
+  margin-left: 22px;
+  font-size: 7px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+.maps{
+  padding-top: 160px;
+}
+
